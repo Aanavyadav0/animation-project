@@ -1,0 +1,76 @@
+div
+{
+    height: 200px;
+    width: 200px;
+    background-color:aqua ;
+    position :relative;
+    animation-name: colorchose ;
+    animation-duration: 20s;
+}
+/* @keyframes colorchose{
+    from{background-color: red;}
+    to{background-color: yellow;}
+} */
+
+   p{
+    height: 200px;
+    width: 200px;
+     background-color: #0dff00; 
+    animation-name: point;
+    position: absolute;
+    animation-duration: 10s;
+   }
+   /* div colorchose */
+   @keyframes colorchose {
+  0%{background-color: red;
+top: 0px;
+left: 0px;
+
+}
+25% {
+    background-color: aqua;
+    top:0px;
+    left: 1000px;
+
+}
+50% {
+    background-color: blue;
+    top:200px;
+    left: 1000px;
+
+}
+75%{
+    background-color: orange;
+    top: 200px;
+    right: 1500px;
+
+}
+100%
+{
+    background-color: yellowgreen;
+    top: 0px;
+    left: 0px;
+}
+   }
+@keyframes point{
+    0%{background-color: rgb(198, 27, 27);
+        top: 0px;
+    left: 0px;
+    }
+    25%{background-color: rgb(37, 22, 207); 
+        top: 0px;
+        left: 400px;
+        }
+    50%{background-color: rgb(14, 222, 52); 
+            top: 300px;
+            left: 400px;
+            }
+    75%{background-color: #19c167; 
+                top: 300px;
+                right: 400px;
+                }
+    100%{background-color: #097021;
+                    top: 0px;
+                    left: 0px;
+                    }
+                }
